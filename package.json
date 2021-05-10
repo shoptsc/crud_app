@@ -1,0 +1,27 @@
+{
+    "name": "crud_app",
+    "version": "1.0.0",
+    "description": "Zuri training crud app task",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shoptsc/crud_app.git"
+    },
+    "author": "sanusi hamed",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/shoptsc/crud_app/issues"
+    },
+    "homepage": "https://github.com/shoptsc/crud_app#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "dotenv": "^9.0.1",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.7",
+        "morgan": "^1.10.0"
+    }
+}
