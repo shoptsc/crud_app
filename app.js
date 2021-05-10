@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(morgan("combined"));
 
-app.use("/user", userRoute);
+app.use(userRoute);
 
 port = process.env.PORT || 8000;
 app.listen(port, console.log(`server running on port ${port}`.cyan))
